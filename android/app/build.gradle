@@ -209,6 +209,8 @@ dependencies {
 
     implementation project(':lottie-react-native')
 
+    implementation project(':react-native-svg')
+
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermes-engine/android/";
         debugImplementation files(hermesPath + "hermes-debug.aar")
